@@ -1,5 +1,75 @@
 import random
-from hangman import hangman
+hangman = [  
+                """
+                   --------
+                   |      |
+                   |      
+                   |    
+                   |      
+                   |     
+                   -
+                """,
+
+                """
+                   --------
+                   |      |
+                   |      O
+                   |    
+                   |      
+                   |     
+                   -
+                """,
+
+                """
+                   --------
+                   |      |
+                   |      O
+                   |      |
+                   |      |
+                   |     
+                   -
+                """,
+
+                r"""
+                   --------
+                   |      |
+                   |      O
+                   |     \|
+                   |      |
+                   |     
+                   -
+                """,
+
+                r"""
+                   --------
+                   |      |
+                   |      O
+                   |     \|/
+                   |      |
+                   |      
+                   -
+                """,
+
+                r"""
+                   --------
+                   |      |
+                   |      O
+                   |     \|/
+                   |      |
+                   |     / 
+                   -
+                """,
+
+                r"""
+                   --------
+                   |      |
+                   |      O
+                   |     \|/
+                   |      |
+                   |     / \
+                   -
+                """
+    ]
 
 words = ["python", "oracle", "java", "proffessor","berlin","rio","tokyo","denver","france","hitler"]
 word = random.choice(words)
